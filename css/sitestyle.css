@@ -48,16 +48,16 @@ a.skip-main:focus, a.skip-main:active {
     color:#000000;
 }
 #homecolor{
-    color:#C900FF;
+    text-decoration:line-through #C900FF;
 }
 #vvcolor{
-    color:#3B0DBF;
+    text-decoration:line-through #3B0DBF;
 }
 #mmcolor{
-    color:#00C5FF;
+    text-decoration:line-through #00C5FF;
 }
 #mecolor{
-    color:#5EBF00;
+    text-decoration:line-through #5EBF00;
 }
 .topnav{
     text-shadow:#000000;
@@ -116,6 +116,12 @@ section.lpsection video{
 section.vvsection video{
     width:100%;
 }
+section.vvsection h1{
+    margin-bottom: 50px;
+    padding-top: 10%;
+    justify-content: center;
+}
+
 .vvdiv{
     height:auto;
     width: 90%;
@@ -186,14 +192,20 @@ section.aboutsection video{
     margin: 5%;
 }
 #meheader{
-    margin-bottom: 50px;
-    padding-top: 10%;
-    justify-content: center;
+    margin-bottom: 10px;
+    border-bottom: 2%;
+    padding-top: 1%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    align-content: center;
 }
 .mefasection{
     margin:10px;
-    display: inline-flex;
+    flex-direction: row;
     justify-content: flex-end;
+    align-content: center;
 }
 
 .fa {
