@@ -260,7 +260,8 @@ section.aboutsection video{
             justify-content: center;
     }
 } */
-
+@media all and (prefers-reduced-motion: reduce){
+}
 /* Tablet look */
 @media screen and (min-width: 750px){
     [class = "aboutsection"]{
