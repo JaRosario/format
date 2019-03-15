@@ -43,17 +43,14 @@ nav ul {
     overflow:hidden;
     background-color: #FFFFFF;
 }
-li {
-    float:left;
-}
-
+/*
 li a {
     display:block;
     color:black;
     text-align: center;
     padding:0px;
     text-decoration: none;
-}
+} */
 
 blockquote, q {
     quotes:none;
