@@ -361,3 +361,103 @@ section.mmsection video{
 
     justify-content: center;
 }
+
+/* Larger Screen */
+@media screen and (min-width: 1025px){
+    [class = "aboutsection"]{
+        display: grid;
+        grid-template-columns: auto;
+        box-sizing: content-box;
+        justify-content: center;
+        align-items: center;
+    }
+    [class = "aboutsection.video"]{
+            width: 80vw;
+            justify-content: center;
+    }
+
+    .vvsection, .aboutsection, .lpsection, .vvdualitysection{
+        display: grid;
+        grid-template-columns: 50vw 50vw 50vw;
+        box-sizing: content-box;
+        border: 5px;
+        padding: 5px;
+        margin-top: :100px;
+        margin-bottom: 100px;
+    }
+    /* nav ul{
+        display: flex;
+    } */
+    nav ul li {
+        display:inline-grid;
+        justify-content:center;
+        width: 13vw;
+    }
+    /* Put yoru 50vw stuff here */
+    section.aboutsection video{
+        width: 50vw;
+        justify-content: center;
+        height: 80vh;
+        padding-bottom: 30px;
+    }
+ .lpsection{
+    display: inline-flex;
+    box-sizing: content-box;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+section.lpsection video{
+    width: 45vw;
+}
+.vvsection{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    box-sizing: content-box;
+    border: 5px;
+    padding: 5px;
+    margin-top: :100px;
+    margin-bottom: 100px;
+}
+.vvdualitysection{
+    display: grid;
+    grid-template-columns: 50vw 45vw;
+    box-sizing: content-box;
+    border: 5px;
+    padding: 5px;
+    margin-top: :100px;
+    margin-bottom: 100px;
+}
+.aboutsection{
+    display: grid;
+    grid-template-columns: auto auto;
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
+}
+section.aboutsection video{
+    width: 50vw;
+    justify-content: center;
+    height: 80vh;
+    padding-bottom: 30px;
+}
+.mmdiv{
+    display:grid;
+    box-sizing: content-box;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+section.mmsection video{
+    width: 30vw;
+    justify-content: center;
+}
+.mmmedia{
+    height: auto;
+    width: 30vw;
+    justify-content: center;
+}
+.footernav{
+    font-size: 10px;
+
+    justify-content: center;
+}
